@@ -1,0 +1,8 @@
+Total Cells: 3600
+Recovered: 2215
+Burned: 1185
+Kept Normal: 3
+Water: 197
+Fires: 3
+UAVs: 40
+CRange: 20
