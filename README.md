@@ -35,3 +35,7 @@ The simulation time taken to extinguish fire is decreasing with increase in numb
 
 # Simulations Output
 ![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/20.png)
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/30.png)
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/40.png)
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/50.png)
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/60.png)
