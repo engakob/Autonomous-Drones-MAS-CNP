@@ -3,20 +3,16 @@ The goal of this project is to achieve a collaboration between UAVs to extinguis
 
 ![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/SimFast.gif)
 
+# Multi Agent System
+A multi-agent system (MAS) is a computerized system composed of multiple interacting intelligent agents. They can solve problems that are difficult or impossible for an individual agent. Intelligence may include methodic, functional, procedural approaches, algorithmic search or reinforcement learning.
+Multi-agent systems consist of agents and their environment. Typically, multi-agent systems refer to software agents. However, the agents in a multi-agent system could equally well be robots, humans or human teams. A multi-agent system may contain combined human-agent teams.
 
-This is a simple Artificial Intelligence project, using Q-Reinforcement Learning to teach a program how to play arcade game snake and eventually reach a super-human level of accuracy and wins.
+# Contract Net Protocol
+CNP) is a task-sharing protocol in multi-agent systems, consisting of a collection of nodes or software agents that form the `contract net'. Each node on the network can, at different times or for different tasks, be a manager or a contractor.
 
-This code was written from scratch and not built on top or inspired by another project.
+When a node gets a `composite task' (or for any reason cannot solve the present task) it breaks the problem down into sub-tasks (if possible) and announces the sub-task to the contract net acting as a manager. Bids are then received from potential contractors and the winning contractor(s) are awarded the job(s).
 
-The snake learns to play on a NxN grid which can be adjusted in the code, 3x3 being a reasonable environment and 10x10 will take so much time to train.
 
-On a regular i5 - 8GB MAC, a 3x3 snake takes 4-6 hours to start winning, and more than a day to become optimal. This is due to the enormous amount of possible actions that exist for winning or losing. To run on Windows, you might need to add 'r' to the CWD. I will soon update the program to run on MAC and Windows without the need to fix anything before.
-
-According to the Q-Learning algorithm, the program has to scan all possible state-action pairs before deciding the next action, which is based on given rewards. As the program runs, the Q table becomes bigger and bigger which will increase the training time.
-
-The program will generate a 'logs' text-file while training.
-
-I will add a new Python file soon, which will plot the accuracy of the model similar to the graph below. 
 
 ### Requirements
 Python 2 or 3\
