@@ -22,3 +22,16 @@ The UAV’s share their position with the Contractor and all other UAV’s in th
 
 # Requirements
 The project was built using NetBeans 8.2 - Java setup on a MAC system.
+
+# Data Collection:
+The results were obtained after simulating with different combinations of communication range, Number of fires in the forest, Number of cells saved and Number of UAV’s used for extinguishing fire. The Inferences can be drawn using one of these parameters as constant and relation was drawn between the other two. All the results were taken after a single run with the changed parameters.
+Starting with the communication range of 20 and changing the No. of UAV’s to see the Cell Recovery trend. When the UAV’s have increased the no. of cells recovered have increased and when the drones are more enough the extinguished cells are less as they started extinguishing cells so fast so the fire didn’t spread across the neighboring cells. 
+
+The Number of UAV’s are increased up to 60 UAV’s with a step of 5 starting with 20 UAV’s with a communication range of 20. Again, the simulations were made with increased communication range by 10 till the end communication range is 60. Every simulation config ran for 5 times and their average is taken into result for that particular config.
+Total Number of Simulation = 9(UAV’s)* 5(CRange) * 5(Runs) = 225 simulations
+
+# Simulations Output Analysis:
+The simulation time taken to extinguish fire is decreasing with increase in number of UAV’s and Communication Range. The number of cells saved including both recovered and kept normal are increasing with increase in Number of UAV’s and Communication Range. A little change of trend is observed as the number of UAV’s increased beyond 55 as there is collision in UAV’s for the assigned task as they are more than needed.
+
+# Simulations Output
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/20.png)
