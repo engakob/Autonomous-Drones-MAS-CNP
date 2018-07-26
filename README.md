@@ -1,6 +1,8 @@
 # Introduction
 The goal of this project is to achieve a collaboration between UAVs to extinguish fire outbreaks in forests and finding a balance between the number of UAV to be deployed and the on-board hardware communication range per UAV using CNP Protocol.
 
+![image text](https://github.com/akob125/Autonomous-Drones-MAS-CNP/blob/master/Media/SimFast.gif)
+
 
 This is a simple Artificial Intelligence project, using Q-Reinforcement Learning to teach a program how to play arcade game snake and eventually reach a super-human level of accuracy and wins.
 
@@ -27,5 +29,4 @@ Python 2 or 3\
 
 ### How to start
 Run Snake_RL.py to start the game and watch the snake learning.
-![image text](https://github.com/akob125/AI-Q-Reinforcement-Learning-Snake/blob/master/Media/Plot.jpg)
-![image text](https://github.com/akob125/AI-Q-Reinforcement-Learning-Snake/blob/master/Media/GIF.gif)
+
